@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handson 2</title>
+  </head>
+  <body>
+    <h2>FORMS</h2>
+    <form action="./url.html" method="get">
+      <label for="name">Name :</label>
+      <input type="text" id="name" name="name" /> <br /><br />
+      <label for="emailid">Email Address </label>
+      <input type="email" id="emailid" name="emailid" required /><br /><br />
+      <label for="password">Password </label>
+      <input type="password" id="password" name="password" /><br /><br />
+      <label for="lanuage">Language</label><br />
+
+      <input type="radio" value="react" name="lang" />React <br />
+      <input type="radio" value="angular" name="lang" />Angular <br />
+      <input type="radio" value="vue" name="lang" />Vue <br /><br />
+
+      <label for="course">Course</label><br /><br />
+
+      <input type="checkbox" value="mearn" name="lang1" required />MEARN <br />
+      <input type="checkbox" value="mean" name="lang2" />MEAN <br />
+      <input type="checkbox" value="mevn" name="lang3" />MEVN <br /><br />
+
+      <label for="">Field</label><br />
+      <select name="designation" id="designation" size="1">
+        Field
+        <option value="frontend" selected>Front End</option>
+        <option value="backend">Back End</option>
+        <option value="fullstack">Full stack</option>
+      </select>
+
+      <br /><br />
+      <textarea
+        name="discription"
+        id="discription"
+        cols="30"
+        rows="10"
+      ></textarea
+      ><br /><br />
+      <label for="phone">Phone Number </label>
+      <input type="number" name="phone" id="phone" />
+      <button type="submit">Submit</button>
+    </form>
+    <h1>TABLES</h1>
+    <a href="table.html">Click</a>
+  </body>
+</html>

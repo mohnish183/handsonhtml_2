@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Handson</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid;
+      }
+      th {
+        text-align: center;
+      }
+      table {
+        width: 100%;
+      }
+      .commencement {
+        border: none;
+      }
+      .color {
+        background-color: #d3d3d3;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>TABLES</h1>
+    <table>
+      <tr>
+        <th>Firstname</th>
+        <th>Lastname</th>
+        <th>Age</th>
+        <th>Phone number</th>
+        <th>Pincode</th>
+      </tr>
+      <tr>
+        <td>User First 1</td>
+        <td>User Last 1</td>
+        <td>24</td>
+        <td>1234567890</td>
+        <td>56987</td>
+      </tr>
+      <tr>
+        <td>User First 2</td>
+        <td>User Last 2</td>
+        <td>24</td>
+        <td>9874561230</td>
+        <td>32145</td>
+      </tr>
+
+      <tr>
+        <td>User First 3</td>
+        <td>User Last 3</td>
+        <td>24</td>
+        <td>9865418635</td>
+        <td>86145</td>
+      </tr>
+    </table>
+
+    <br /><br /><br />
+    <table>
+      <tr>
+        <th>Course :</th>
+        <td>Elevation Academy</td>
+      </tr>
+      <tr>
+        <th rowspan="2">Contact Number :</th>
+        <td>12345567890</td>
+      </tr>
+      <tr>
+        <td>1234567890</td>
+      </tr>
+    </table>
+
+    <br /><br /><br /><br />
+    <table>
+      <tr>
+        <th>Course</th>
+        <th colspan="2">Contact Number</th>
+        <th>Date of commencement</th>
+      </tr>
+      <tr>
+        <td>Elevation Academy</td>
+        <td>1234567890</td>
+        <td>2 August 2022</td>
+        <td rowspan="3" class="commencement"></td>
+      </tr>
+      <tr>
+        <td>Elevation Academy</td>
+        <td>1234567890</td>
+        <td>2 August 2022</td>
+      </tr>
+      <tr>
+        <td>Elevation Academy</td>
+        <td>1234567890</td>
+        <td>2 August 2022</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+    <table style="width: 200px; margin: auto; text-align: center">
+      <tr>
+        <td class="color">Name</td>
+        <td>John</td>
+        <td class="color">Nick</td>
+        <td>Tim</td>
+      </tr>
+      <tr>
+        <td>Age</td>
+        <td class="color">30</td>
+        <td>20</td>
+        <td class="color">35</td>
+      </tr>
+    </table>
+    <br /><br /><br />
+    <a href="index.html">Go Back</a>
+  </body>
+</html>
